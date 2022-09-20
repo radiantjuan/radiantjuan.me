@@ -1,0 +1,26 @@
+[
+    {
+        "hovered_src": "amazon.png",
+        "caption": "Amazon"
+    },
+    {
+        "hovered_src": "apache.png",
+        "caption": "Apache"
+    },
+    {
+        "hovered_src": "nginx.png",
+        "caption": "Nginx"
+    },
+    {
+        "hovered_src": "cpanel.png",
+        "caption": "CPanel"
+    },
+    {
+        "hovered_src": "plesk.png",
+        "caption": "Plesk"
+    },
+    {
+        "hovered_src": "datadog.png",
+        "caption": "DataDog"
+    }
+]

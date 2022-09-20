@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "src": "chaboba.png",
+        "caption": "Chaboba",
+        "url": "https://orders.chaboba.ph/",
+        "short_description": "Supply ordering and inventory system for Chaboba Milk Tea shop franchise. This website lets the franchisees of Chaboba order their needed supply, this also helps the Franchiser to track their inventory and print receipts"
+    },
+    {
+        "id": 2,
+        "src": "manilawater.png",
+        "caption": "Manilawater",
+        "url": "https://www.manilawater.com/",
+        "short_description": "A multi page website with various web app inside that tells everything about Manila Water Company"
+    },
+    {
+        "id": 3,
+        "src": "lagunawater.png",
+        "caption": "Lagunawater",
+        "url": "https://www.lagunawater.com.ph/",
+        "short_description": "A multi page website with various web app inside that tells everything about Laguna Water Company"
+    },
+    {
+        "id": 4,
+        "src": "hh.png",
+        "caption": "Hungryhungry (formerly Ordermate online)",
+        "url": "https://admin.ordermate.online/",
+        "short_description": "A web application admin for multiple site restaurants where they can self manage their Online Ordering websites."
+    },
+    {
+        "id": 5,
+        "src": "aprs.png",
+        "caption": "APRS",
+        "url": "https://aprsrifles.com.au/",
+        "short_description": "Ace Precision Rifle Systems, an ecommerce wordpress website for a company based in Australia where it sells rifles and offers gunsmithing, and sister company of lightforce."
+    },
+    {
+        "id": 6,
+        "src": "lightforce.png",
+        "caption": "Lightforce",
+        "url": "https://www.lightforce.com/",
+        "short_description": "An ecommerce wordpress website for a company based in Australia where it sells lights for off road vehicles and hunting."
+    },
+    {
+        "id": 7,
+        "src": "binbrook.png",
+        "caption": "Binbrook Plumbing & Heating",
+        "url": "http://binbrookplumbing.ca/",
+        "short_description": "A portfolio website made in wordpress for a Canadian Plumbing Company where they showcase their expertise in Plumbing."
+    },
+    {
+        "id": 8,
+        "src": "natureplay.png",
+        "caption": "Nature Play",
+        "url": "https://www.natureplayqld.org.au/",
+        "short_description": "A wordpress website for children in south australia to experience nature where you can book or join an event."
+    },
+    {
+        "id": 9,
+        "src": "summitdoors.png",
+        "caption": "Summit Doors",
+        "url": "https://summitdoors.com.au/",
+        "short_description": "An e-commerce website that sells doors based in Australia."
+    }
+]

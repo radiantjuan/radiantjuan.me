@@ -1,0 +1,28 @@
+@import '../blk-design-system-react/custom/mixins/vendor-prefixes';
+
+.container_padding {
+    padding-top: 150px;
+}
+
+.outer_row_container {
+    height: calc(100vh - 74px);
+}
+
+.text_on_back {
+    top: -111px;
+    position: absolute;
+    margin-left: -5px;
+    animation: move-left-right 10s infinite;
+}
+
+.profile_title {
+    margin-bottom: 0px;
+}
+
+.card_header_class {
+    margin: -100px auto 0px !important;
+}
+
+.contant_list {
+    list-style: none;
+}

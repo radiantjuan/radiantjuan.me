@@ -1,0 +1,140 @@
+[
+    {
+        "ref_id": 1,
+        "title": "Chaboba",
+        "images_directory": "chaboba",
+        "slider_images": [],
+        "work_description": {
+            "work_type": "One time freelance project",
+            "responsibilities": [
+                "Build the website's back-end and front-end implementation from ground up",
+                "Planning",
+                "Server setup",
+                "Database setup",
+                "Security Implementation",
+                "Yearly maintenance",
+                "Design"
+            ]
+        },
+        "url": "https://orders.chaboba.ph/"
+    },
+    {
+        "ref_id": 2,
+        "title": "Manilawater",
+        "images_directory": "manilawater",
+        "slider_images": [],
+        "work_description": {
+            "work_type": "One time freelance project",
+            "responsibilities": [
+                "Build the website's back-end and front-end implementation from ground up",
+                "Planning",
+                "Server setup",
+                "Database setup",
+                "Security Implementation",
+                "Yearly maintenance"
+            ]
+        },
+        "url": "https://www.manilawater.com/"
+    },
+    {
+        "ref_id": 3,
+        "title": "Lagunawater",
+        "images_directory": "lagunawater",
+        "slider_images": [],
+        "work_description": {
+            "work_type": "One time freelance project",
+            "responsibilities": [
+                "Build the website's back-end and front-end implementation from ground up",
+                "Planning",
+                "Server setup",
+                "Database setup",
+                "Security Implementation",
+                "Yearly maintenance"
+            ]
+        },
+        "url": "https://www.lagunawater.com.ph/"
+    },
+    {
+        "ref_id": 4,
+        "title": "Hungryhungry (formerly Ordermate online)",
+        "images_directory": "ordermateonline",
+        "slider_images": [],
+        "work_description": {
+            "work_type": "Employment",
+            "responsibilities": [
+                "Web app maintenance",
+                "Backend new feature development and maintenance",
+                "Server administration ",
+                "Admin's front-end new feature development and maintenance",
+                "API development for front-end online ordering web application"
+            ]
+        },
+        "url": "https://admin.ordermate.online/"
+    },
+    {
+        "ref_id": 5,
+        "title": "APRS",
+        "images_directory": "aprs",
+        "slider_images": [],
+        "work_description": {
+            "work_type": "Freelance",
+            "responsibilities": [
+                "Website Maintenance"
+            ]
+        },
+        "url": "https://aprsrifles.com.au/"
+    },
+    {
+        "ref_id": 6,
+        "title": "Lightforce",
+        "images_directory": "lightforce",
+        "slider_images": [],
+        "work_description": {
+            "work_type": "Freelance",
+            "responsibilities": [
+                "Website Maintenance",
+                "New design development"
+            ]
+        },
+        "url": "https://www.lightforce.com/"
+    },
+    {
+        "ref_id": 7,
+        "title": "Binbrook Plumbing & Heating",
+        "images_directory": "binbrook",
+        "slider_images": [],
+        "work_description": {
+            "work_type": "Employment",
+            "responsibilities": [
+                "Build the website from ground up using pre-built templates"
+            ]
+        },
+        "url": "http://binbrookplumbing.ca/"
+    },
+    {
+        "ref_id": 8,
+        "title": "Nature Play",
+        "images_directory": "natureplay",
+        "slider_images": [],
+        "work_description": {
+            "work_type": "Freelance",
+            "responsibilities": [
+                "Website Maintenance"
+            ]
+        },
+        "url": "https://www.natureplayqld.org.au/"
+    },
+    {
+        "ref_id": 9,
+        "title": "Summit Doors",
+        "images_directory": "summitdoors",
+        "slider_images": [],
+        "work_description": {
+            "work_type": "Freelance",
+            "responsibilities": [
+                "Website Maintenance"
+            ]
+        },
+        "url": "https://summitdoors.com.au/"
+    }
+]

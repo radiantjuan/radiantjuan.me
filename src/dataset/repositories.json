@@ -1,0 +1,18 @@
+[
+    {
+        "hovered_src": "git.png",
+        "caption": "Git"
+    },
+    {
+        "hovered_src": "bitbucket.png",
+        "caption": "Bitbucket"
+    },
+    {
+        "hovered_src": "github.png",
+        "caption": "GitHub"
+    },
+    {
+        "hovered_src": "gitlab.png",
+        "caption": "GitLab"
+    }
+]

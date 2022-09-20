@@ -1,0 +1,14 @@
+[
+    {
+        "hovered_src": "mac.png",
+        "caption": "Mac"
+    },
+    {
+        "hovered_src": "windows.png",
+        "caption": "Windows"
+    },
+    {
+        "hovered_src": "linux.png",
+        "caption": "Linux"
+    }
+]
