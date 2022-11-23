@@ -22,7 +22,13 @@ const MyJourney = () => {
                     </CardHeader>
                     <CardBody>
                         <p>
-                            Temple and webster's product is an online store that sells, home, kitchen, and office tools and furnitures, more like an IKEA but online, they're company is based in Sydney Australia, and I'm work for them remotely with the help of Diversify offshore staffing solutions, I handle the development, implementation, management, optimization, and continuous improvement of their e-commerce website. As a team, we also have a strong process and currently using scrum.Temple and webster's product is an online store that sells, home, kitchen, and office tools and furnitures, more like an IKEA but online, they're company is based in Sydney Australia, and I'm work for them remotely with the help of Diversify offshore staffing solutions, I handle the development, implementation, management, optimization, and continuous improvement of their e-commerce website. As a team, we also have a strong process and currently using scrum.
+                            Temple and webster's product is an online store that sells, home, kitchen, and office tools and furnitures, more like an IKEA but online, the company is based in Sydney Australia, I work for them remotely with the help of Diversify offshore staffing solutions.
+                            <br />
+                            <br />
+                            I handle the development, implementation, management, optimization, and continuous improvement of their e-commerce website.
+                            <br />
+                            <br />
+                            As a team, we also have a strong process and currently using scrum.
                         </p>
                     </CardBody>
                 </Card>
@@ -40,8 +46,10 @@ const MyJourney = () => {
                     </CardHeader>
                     <CardBody>
                         <p>
-                            Hungryhungry is an online ordering system provider for restaurants in Australia, they have 500+ active clients currently, building an e-commerce website using their web application product with custom CMS called "hungyhungry admin" is one of their services, they also include as option a tablet application POS system called "HH Hub" where the customers manage online orders. I work for them remotely with the help of MicroSourcing Inc.
-                            My role as a PHP Developer is to develop, implement, manage, optimize and continuous improvement of the Hungryhungry admin, it's a full-stack development using back-end and front-end skills, I also do API development for the "HH Hub", I also do DevOps work but not limited to AWS EC2, RDS, and Cloud formation configuration, and linux.Hungryhungry is an online ordering system provider for restaurants in Australia, they have 500+ active clients currently, building an e-commerce website using their web application product with custom CMS called "hungyhungry admin" is one of their services, they also include as option a tablet application POS system called "HH Hub" where the customers manage online orders. I work for them remotely with the help of MicroSourcing Inc. My role as a PHP Developer is to develop, implement, manage, optimize and continuous improvement of the Hungryhungry admin, it's a full-stack development using back-end and front-end skills, I also do API development for the "HH Hub", I also do DevOps work but not limited to AWS EC2, RDS, and Cloud formation configuration, and linux.
+                            Hungryhungry is an online ordering system provider for restaurants in Australia, they have 500+ active clients currently, building an e-commerce website using their web application product with custom CMS called "hungyhungry admin" as one of their services, they also include a tablet application POS system called "HH Hub" where the customers manage online orders. I work for them remotely with the help of MicroSourcing Inc.
+                            <br />
+                            <br />
+                            My role as a PHP Developer is to develop, implement, manage, optimize and continuous improvement of the Hungryhungry admin, it's a full-stack development using back-end and front-end skills, I also do API development for the "HH Hub", I also do DevOps work but not limited to AWS EC2, RDS, and Cloud formation configuration, and linux.
                         </p>
                     </CardBody>
                 </Card>
@@ -60,7 +68,8 @@ const MyJourney = () => {
                     <CardBody>
                         <p>
                             IBM has a subsidiary company called "IBM Solutions Delivery Inc." one of their projects is called Project "Donald" where their client is ABS-CBN one of the famous TV network in the Philippines, I was originally an employee of ABC-CBN and I was transitioned to IBM.
-
+                            <br />
+                            <br />
                             With my role as an Applications Developer, I develop promotional websites from scratch one example is that if they have a movie that they are currently promoting or an album from one of their artists, I was also the sole developer for SkyCable's website which is the number one Cable and broadband provider in the Philippines.
                         </p>
 

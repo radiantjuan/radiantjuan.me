@@ -17,7 +17,7 @@ import '../../node_modules/@splidejs/splide/dist/css/splide.min.css';
 import OperatingSystem from 'components/Views/Profile/OperatingSystem';
 import Repositories from 'components/Views/Profile/Repositories';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faMobile } from '@fortawesome/free-solid-svg-icons';
 import ProjectManagement from 'components/Views/Profile/ProjectManagement';
@@ -69,6 +69,9 @@ const Profile = props => {
                                             </li>
                                             <li>
                                                 <h4><a href="https://www.linkedin.com/in/radiant-juan-2b495391" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /> radiant-juan-2b495391</a></h4>
+                                            </li>
+                                            <li>
+                                                <h4><a href="https://github.com/radiantjuan" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> radiantjuan</a></h4>
                                             </li>
                                             <li className="pt-3">
                                                 <a href={resume['resume.pdf'].default} className="btn btn-primary" target="_blank" rel="noreferrer"><strong>REVIEW MY CV</strong></a>
