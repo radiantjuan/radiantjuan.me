@@ -16,10 +16,10 @@ import MyJourney from '../components/Views/Profile/MyJourney';
 import '../../node_modules/@splidejs/splide/dist/css/splide.min.css';
 import OperatingSystem from 'components/Views/Profile/OperatingSystem';
 import Repositories from 'components/Views/Profile/Repositories';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faMobile } from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
+import {faMobile} from '@fortawesome/free-solid-svg-icons';
 import ProjectManagement from 'components/Views/Profile/ProjectManagement';
 
 const importAll = (r) => {
@@ -43,11 +43,37 @@ const Profile = props => {
                         <Row className="align-items-center">
                             <Col lg="6" md="6" className="animate__animated animate__fadeInDown">
                                 <h5 className={cssClasses.text_on_back + " text-on-back"}>RCJ</h5>
-                                <h1 className={cssClasses.profile_title + " profile-title text-left "}><strong>Radiant C. Juan</strong></h1>
-                                <h4 className={cssClasses.profile_title + " profile-title text-left text-primary"}>Full-stack Web Developer</h4>
+                                <h1 className={cssClasses.profile_title + " profile-title text-left "}><strong>Radiant
+                                    C. Juan</strong></h1>
+                                <h4 className={cssClasses.profile_title + " profile-title text-left text-primary"}>Full-stack
+                                    Web Developer</h4>
                                 <p className="profile-description">
-                                    In my {yearsOfExp} years of experience as a Web Developer, I have the necessary skill set and knowledge to help your company to be profitable, my mission is to deliver operational excellence, productivity, and compliance to ensure and maximize client services, minimize costs they serve and most importantly drive revenue for their business.
+                                    In my {yearsOfExp} years of experience as a Web Developer, I have the necessary
+                                    skill set and knowledge to help your company to be profitable, my mission is to
+                                    deliver operational excellence, productivity, and compliance to ensure and maximize
+                                    client services, minimize costs they serve and most importantly drive revenue for
+                                    their business.
                                 </p>
+                                <div className={"container"}>
+                                    <div className={'d-flex'}>
+                                        <div className={"m-3"}>
+                                            <a href={'https://www.credly.com/badges/9a9fb0fe-e32c-420b-94a1-f196c5b635d3/linked_in_profile'}
+                                               target={'_blank'} rel={'noreferrer'} className={'mt-4'}>
+                                                <img
+                                                    src={"https://images.credly.com/size/680x680/images/a2790314-008a-4c3d-9553-f5e84eb359ba/image.png"}
+                                                    alt={'PSM 1 certification'} className={cssClasses.certBadge}/>
+                                            </a>
+                                        </div>
+                                        <div className={"m-3"}>
+                                            <a href={'https://www.credly.com/badges/5b420526-46c6-4d3f-85fd-9009496265fd/linked_in_profile'}
+                                               target={'_blank'} rel={'noreferrer'} className={'mt-4'}>
+                                                <img
+                                                    src={"https://images.credly.com/size/680x680/images/0ab5b829-02ae-4a73-ac82-ab9798fb76e9/157a788a3a7d3880f574c2cdaf0b97d5.png"}
+                                                    alt={'International academic qualification'} className={cssClasses.certBadge}/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </Col>
                             <Col className="ml-auto mr-auto animate__animated animate__fadeInDown" lg="4" md="6">
                                 <Card className="card-coin card-plain">
@@ -57,24 +83,31 @@ const Profile = props => {
                                             className="img-center img-fluid rounded-circle"
                                             src={require("../assets/img/profilepic.png").default}
                                         />
-                                        <h4 className="mt-3"><strong>Contact Me</strong> </h4>
+                                        <h4 className="mt-3"><strong>Contact Me</strong></h4>
                                     </CardHeader>
                                     <CardBody className="text-center mb-3">
                                         <ul className={cssClasses.contant_list + " m-0 p-0"}>
                                             <li>
-                                                <h4><a href="tel:+639055629640"><FontAwesomeIcon icon={faMobile} /> +639055629640</a></h4>
+                                                <h4><a href="tel:+639055629640"><FontAwesomeIcon
+                                                    icon={faMobile}/> +639055629640</a></h4>
                                             </li>
                                             <li>
-                                                <h4><a href="mailto:radiantcjuan@gmail.com"><FontAwesomeIcon icon={faEnvelope} /> radiantcjuan@gmail.com</a></h4>
+                                                <h4><a href="mailto:radiantcjuan@gmail.com"><FontAwesomeIcon
+                                                    icon={faEnvelope}/> radiantcjuan@gmail.com</a></h4>
                                             </li>
                                             <li>
-                                                <h4><a href="https://www.linkedin.com/in/radiant-juan-2b495391" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /> radiant-juan-2b495391</a></h4>
+                                                <h4><a href="https://www.linkedin.com/in/radiant-juan-2b495391"
+                                                       target="_blank" rel="noreferrer"><FontAwesomeIcon
+                                                    icon={faLinkedin}/> radiant-juan-2b495391</a></h4>
                                             </li>
                                             <li>
-                                                <h4><a href="https://github.com/radiantjuan" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> radiantjuan</a></h4>
+                                                <h4><a href="https://github.com/radiantjuan" target="_blank"
+                                                       rel="noreferrer"><FontAwesomeIcon
+                                                    icon={faGithub}/> radiantjuan</a></h4>
                                             </li>
                                             <li className="pt-3">
-                                                <a href={resume['resume.pdf'].default} className="btn btn-primary" target="_blank" rel="noreferrer"><strong>REVIEW MY CV</strong></a>
+                                                <a href={resume['resume.pdf'].default} className="btn btn-primary"
+                                                   target="_blank" rel="noreferrer"><strong>REVIEW MY CV</strong></a>
                                             </li>
                                         </ul>
                                     </CardBody>
@@ -95,7 +128,7 @@ const Profile = props => {
                                     <CardBody>
                                         <div id="whatcanido" className="m-auto container-fluid">
                                             <div className="row justify-content-center">
-                                                <WhatCanICode />
+                                                <WhatCanICode/>
                                             </div>
                                         </div>
                                     </CardBody>
@@ -109,7 +142,7 @@ const Profile = props => {
                                     <CardBody>
                                         <div id="server" className="m-auto container-fluid h-100">
                                             <div className="row justify-content-center h-100">
-                                                <ServerAdmin />
+                                                <ServerAdmin/>
                                             </div>
                                         </div>
                                     </CardBody>
@@ -123,7 +156,7 @@ const Profile = props => {
                                     <CardBody>
                                         <div id="os" className="m-auto container-fluid">
                                             <div className="row justify-content-center">
-                                                <OperatingSystem />
+                                                <OperatingSystem/>
                                             </div>
                                         </div>
                                     </CardBody>
@@ -137,7 +170,7 @@ const Profile = props => {
                                     <CardBody>
                                         <div id="repositories" className="m-auto container-fluid">
                                             <div className="row justify-content-center">
-                                                <Repositories />
+                                                <Repositories/>
                                             </div>
                                         </div>
                                     </CardBody>
@@ -151,7 +184,7 @@ const Profile = props => {
                                     <CardBody>
                                         <div id="projectManagement" className="m-auto container-fluid">
                                             <div className="row justify-content-center">
-                                                <ProjectManagement />
+                                                <ProjectManagement/>
                                             </div>
                                         </div>
                                     </CardBody>
@@ -164,11 +197,13 @@ const Profile = props => {
                             </Col>
                         </Row>
                         <Row>
-                            <MyJourney />
+                            <MyJourney/>
                         </Row>
                         <Row className="mb-5">
                             <Col className="text-center">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeu6kaQLH85IG-U2UDJbhX5FC87gsbTJ8gDQPAk2HhZ-uwzpA/viewform?usp=pp_url" target="_blank" rel="noreferrer" className="btn btn-primary btn-lg"><strong>INQUIRE NOW</strong></a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeu6kaQLH85IG-U2UDJbhX5FC87gsbTJ8gDQPAk2HhZ-uwzpA/viewform?usp=pp_url"
+                                   target="_blank" rel="noreferrer" className="btn btn-primary btn-lg"><strong>INQUIRE
+                                    NOW</strong></a>
                             </Col>
                         </Row>
                     </Col>
