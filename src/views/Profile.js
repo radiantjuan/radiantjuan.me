@@ -54,8 +54,8 @@ const Profile = props => {
                                     client services, minimize costs they serve and most importantly drive revenue for
                                     their business.
                                 </p>
-                                <div className={"container"}>
-                                    <div className={'d-flex'}>
+                                <div className={"container mt-3"}>
+                                    <div className={'d-flex justify-content-center'}>
                                         <div className={"m-3"}>
                                             <a href={'https://www.credly.com/badges/9a9fb0fe-e32c-420b-94a1-f196c5b635d3/linked_in_profile'}
                                                target={'_blank'} rel={'noreferrer'} className={'mt-4'}>
@@ -75,15 +75,16 @@ const Profile = props => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col className="ml-auto mr-auto animate__animated animate__fadeInDown" lg="4" md="6">
+                            <Col className="ml-auto mr-auto animate__animated animate__fadeInDown mt-5" lg="4" md="6">
                                 <Card className="card-coin card-plain">
                                     <CardHeader className={cssClasses.card_header_class + " text-center"}>
                                         <img
                                             alt="..."
                                             className="img-center img-fluid rounded-circle"
-                                            src={require("../assets/img/profilepic.png").default}
+                                            style={{width:'230px'}}
+                                            src={require("../assets/img/profilepic.jpg").default}
                                         />
-                                        <h4 className="mt-3"><strong>Contact Me</strong></h4>
+                                        <h4 className="mt-5"><strong>Contact Me</strong></h4>
                                     </CardHeader>
                                     <CardBody className="text-center mb-3">
                                         <ul className={cssClasses.contant_list + " m-0 p-0"}>
