@@ -33,8 +33,8 @@ const importAll = (r) => {
 const resume = importAll(require.context('../assets/img/rcjworks', false, /\.(pdf)$/));
 
 const Profile = props => {
-    const WORKEDSINCE = 2014;
-    const yearsOfExp = new Date().getFullYear() - WORKEDSINCE;
+    const workedSince = 2014;
+    const yearsOfExp = new Date().getFullYear() - workedSince;
     return (
         <React.Fragment>
             <Container className={cssClasses.container_padding}>
@@ -45,8 +45,9 @@ const Profile = props => {
                                 <h5 className={cssClasses.text_on_back + " text-on-back"}>RCJ</h5>
                                 <h1 className={cssClasses.profile_title + " profile-title text-left "}><strong>Radiant
                                     C. Juan</strong></h1>
-                                <h4 className={cssClasses.profile_title + " profile-title text-left text-primary"}>Full-stack
-                                    Web Developer</h4>
+                                <h4 className={cssClasses.profile_title + " profile-title text-left text-primary"}>
+                                    Software Engineer
+                                </h4>
                                 <div className="profile-description">
                                     <p className="mt-3">In my {yearsOfExp} years of experience as a Software Engineer, I have honed my proficiency in PHP development to deliver impactful solutions for businesses. Alongside my expertise in PHP, I possess a strong foundation in web development technologies such as HTML, CSS, and JavaScript. My skill set extends to frameworks like Laravel and Symfony, enabling me to architect robust and scalable web applications.</p>
                                     <p className="mt-3">Driven by a passion for innovation, I have a proven track record of developing user-friendly interfaces and optimizing backend functionalities to enhance overall system performance. Moreover, my experience with version control systems like Git and proficiency in database management with MySQL further bolster my capabilities as a Software Engineer.</p>
