@@ -54,7 +54,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         
     - name: Load Docker image
-      run: docker load -i /path/to/docker-image.tar  # Adjust the path accordingly
+      run: docker load -i docker-image.tar  # Adjust the path accordingly
 
     - name: Push Docker image to Docker Hub
       run: docker push radiantcjuan/radiantjuandotme:latest
