@@ -1,0 +1,10 @@
+services:
+  web_app:
+    image: node:14
+    container_name: radiantjuanme
+    working_dir: /var/www/html
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/var/www/html
+    command: sh -c "npm install && npm run build"
